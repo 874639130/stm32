@@ -1,0 +1,64 @@
+---- accept Matches (63 in 23 files) ----
+Api_lib.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api):  /* No ASSERT here because possible to get a (conn == NULL) if we got an accept error */
+Api_lib.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api): * tells the stack that it has processed data and is able to accept
+Api_msg.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api):  /* pass NULL-message to acceptmbox to wake up pending accept */
+Api_msg.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api): * @see tcp.h (struct tcp_pcb_listen.accept) for parameters and return value
+Asn1_dec.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\snmp):        /**  @todo: do we need to accept inefficient codings with many leading zero's? */
+Dhcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):      /* we will not accept the offered address */
+Dhcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * Tell the DHCP server we do not accept the offered address.
+Httpd.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip_app\web_server_demo):  /* initialize callback arg and accept callback */
+Httpd.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip_app\web_server_demo): * whether to accept it or not.
+Ip.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\ipv4):/* accept DHCP client port and custom port */
+Ip.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\ipv4):/* accept custom port only */
+Ip.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\ipv4):/* accept DHCP client port only */
+Ip.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\ipv4):   * If you want to accept private broadcast communication while a netif is down,
+Ipcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):         * then accept it.
+Ipcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):            go->ouraddr = ciaddr2;  /* accept peer's idea */
+Ipcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):         * then accept it.
+Ipcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):  u_int   accept_local  : 1; /* accept peer's value for ouraddr */
+Ipcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):  u_int   accept_remote : 1; /* accept peer's value for hisaddr */
+Lcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):bool  lax_recv = 0;         /* accept control chars in asyncmap */
+Lcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):   * but accept A/C and protocol compressed packets
+Lcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):   * accept either.
+Lcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):   * we want.  Therefore, accept any MRU less than what we asked for,
+Lcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):   * If they send us a bigger MRU than what we asked, accept it, up to
+Msg_in.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core\snmp):  /* Only accept requests and requests without error (be robust) */
+Opt.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip): * that returns 1 to accept a packet or 0 to drop a packet.
+Opt.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip): *         events (accept, sent, etc) that happen in the system.
+Os_q.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\ucosii\src):*              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+Os_q.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\ucosii\src):*              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+Os_q.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\ucosii\src):*              OS_ERR_Q_FULL         If the queue cannot accept any more messages because it is full.
+Ppp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):  int  pcomp;                   /* Does peer accept protocol compression? */
+Ppp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):  int  accomp;                  /* Does peer accept addr/ctl compression? */
+Ppp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\netif\ppp):      /* some providers request pap and accept an empty login/pw */
+Rawapi.txt (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\doc):  usually be called from the accept callback. This allows lwIP to perform
+Rawapi.txt (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\doc):  into the accept callback!
+Rawapi.txt (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\doc):                  err_t (* accept)(void *arg, struct tcp_pcb *newpcb,
+Sockets.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api): * @param accepted 1 if socket has been created by accept(),
+Sockets.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api):       * (unless it has been created by accept()). */
+Sockets.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api):  /* See event_callback: If data comes in right away after an accept, even
+Sockets.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\api):      /* Data comes in right away after an accept, even though
+Sockets.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):#define accept(a,b,c)         lwip_accept(a,b,c)
+Stm32f4xx_hash.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\libraries\stm32f4xx_stdperiph_driver\src):       the hash processor elaborates the key. It is then ready to accept the message
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * they accept or send data. */
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * Default accept callback if no accept callback is specified by the user.
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * is able to accept incoming connections. The protocol control block
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):  lpcb->accept = tcp_accept_null;
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * @param pcb tcp_pcb to set the accept callback
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core): * @param accept callback function to call for this pcb when LISTENing
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):tcp_accept(struct tcp_pcb *pcb, tcp_accept_fn accept)
+Tcp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):  pcb->accept = accept;
+Tcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):/** Function prototype for tcp accept callback functions. Called when a new
+Tcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):   * @return ERR_OK: accept the new connection,
+Tcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):#define DEF_ACCEPT_CALLBACK  tcp_accept_fn accept;
+Tcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):  /* the accept callback for listen- and normal pcbs, if LWIP_CALLBACK_API */ \
+Tcp.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):void             tcp_accept  (struct tcp_pcb *pcb, tcp_accept_fn accept);
+Tcp_impl.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):    if((pcb)->accept != NULL)                                  \
+Tcp_impl.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):      (ret) = (pcb)->accept((pcb)->callback_arg,(pcb),(err));  \
+Tcp_impl.h (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\include\lwip):              state in which they accept or send
+Tcp_in.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):    npcb->accept = pcb->accept;
+Tcp_in.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):        LWIP_ASSERT("pcb->accept != NULL", pcb->accept != NULL);
+Tcp_in.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):        /* Call the accept function. */
+Tcp_in.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):          /* If the accept function returns with an error, we abort
+Udp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):        /* accept the packe if 
+Udp.c (e:\code\集中器 （以太网—基于ucos-ii的lwip）\lwip\lwip-1.4.1\src\core):        might want to accept incoming packets on any interface! */

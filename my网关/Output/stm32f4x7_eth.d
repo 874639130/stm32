@@ -1,0 +1,14 @@
+..\..\output\stm32f4x7_eth.o: ..\..\HARAWARE\ETH\stm32f4x7_eth.c
+..\..\output\stm32f4x7_eth.o: ..\..\HARAWARE\ETH\stm32f4x7_eth.h
+..\..\output\stm32f4x7_eth.o: ..\..\HARAWARE\ETH\stm32f4x7_eth_conf.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\sys.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\stm32f4xx.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\stm32f429xx.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\core_cm4.h
+..\..\output\stm32f4x7_eth.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\core_cmInstr.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\cmsis_armcc.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\core_cmFunc.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\core_cmSimd.h
+..\..\output\stm32f4x7_eth.o: ..\..\SYSTEM\sys\system_stm32f4xx.h
+..\..\output\stm32f4x7_eth.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

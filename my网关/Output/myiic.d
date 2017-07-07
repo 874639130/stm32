@@ -1,0 +1,13 @@
+..\..\output\myiic.o: ..\..\HARAWARE\IIC\myiic.c
+..\..\output\myiic.o: ..\..\HARAWARE\IIC\myiic.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\sys.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\stm32f4xx.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\stm32f429xx.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\core_cm4.h
+..\..\output\myiic.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\core_cmInstr.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\cmsis_armcc.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\core_cmFunc.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\core_cmSimd.h
+..\..\output\myiic.o: ..\..\SYSTEM\sys\system_stm32f4xx.h
+..\..\output\myiic.o: ..\..\HARAWARE\systick\delay.h

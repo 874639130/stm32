@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include -I..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc -I..\..\USER -I..\..\USER\App -I..\..\UCOSII\inc -I..\..\USER\Uartx -I..\..\USER\UserApp -I..\..\LWIP\arch -I..\..\LWIP\lwip_app\lwip_comm -I..\..\LWIP\lwip-1.4.1\src\include -I..\..\LWIP\lwip-1.4.1\src\include\ipv4 -I..\..\LWIP\lwip-1.4.1\src\include\lwip -I..\..\LWIP\lwip-1.4.1\src\include\netif -I..\..\HARAWARE\ETH -I..\..\HARAWARE\led -I..\..\HARAWARE\systick -I..\..\HARAWARE\Uartx -I..\..\HARAWARE\usart -I..\..\UserApp -I..\..\LWIP -I..\..\LWIP\lwip_app\tcp_client_demo -I..\..\LWIP\lwip_app\web_server_demo -I..\..\HARAWARE\STMFLASH -I..\..\HARAWARE
+-I "E:\新建文件夹\集中器 （以太网—基于uCOS-II的LwIP）\Project\RVMDK(uv5)\RTE"
+-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.5.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="515" -D_RTE_ -DSTM32F429xx -DSTM32F429_439xx -DUSE_STDPERIPH_DRIVER
+-o ..\..\output\bsp_systick.o --omf_browse ..\..\output\bsp_systick.crf --depend ..\..\output\bsp_systick.d --feedback "..\..\Output\TCP_Client.fed" "..\..\HARAWARE\systick\bsp_SysTick.c"

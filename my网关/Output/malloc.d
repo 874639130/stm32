@@ -1,0 +1,12 @@
+..\..\output\malloc.o: ..\..\MALLOC\malloc.c
+..\..\output\malloc.o: ..\..\MALLOC\malloc.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\sys.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\stm32f4xx.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\stm32f429xx.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\core_cm4.h
+..\..\output\malloc.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\core_cmInstr.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\cmsis_armcc.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\core_cmFunc.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\core_cmSimd.h
+..\..\output\malloc.o: ..\..\SYSTEM\sys\system_stm32f4xx.h
